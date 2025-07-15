@@ -5,6 +5,7 @@ const Box=styled.div`
     width: 100vw;
     margin-top: 16px;
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(3, 1fr); 
     @media (max-width: 1056px) {
         grid-template-columns: repeat(2, 1fr);

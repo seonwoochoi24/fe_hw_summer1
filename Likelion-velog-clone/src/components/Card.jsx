@@ -5,11 +5,11 @@ const Box=styled.div`
     background-color: white;
     display: grid;
     height: 420px;
-    width: 80%;
+    /* width: 80%; */
     border-radius: 5px;
     grid-template-rows: 6fr 5fr 1fr;
-    margin-right: 15px;
     margin-bottom: 15px;
+    margin-right: 70px;
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .04);
 `
 const Smallbox1=styled.div`
