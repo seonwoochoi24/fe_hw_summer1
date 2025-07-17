@@ -1,10 +1,10 @@
 // Categories.jsx
 import styled from "styled-components";
-import trendIcon from "../icons/trend-velog.png"
-import clockIcon from "../icons/clock-velog.png"
-import feedIcon from "../icons/feed-velog.png"
-import menuIcon from "../icons/menu-velog.png"
-import downIcon from "../icons/down-velog.png"
+import trendIcon from "../assets/icons/trend-velog.png"
+import clockIcon from "../assets/icons/clock-velog.png"
+import feedIcon from "../assets/icons/feed-velog.png"
+import menuIcon from "../assets/icons/menu-velog.png"
+import downIcon from "../assets/icons/down-velog.png"
 
 const Box=styled.div`
     display: flex;

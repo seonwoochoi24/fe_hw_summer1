@@ -1,15 +1,16 @@
 // Header.jsx
 import React from "react";
 import styled from "styled-components";
-import logoIcon from "../icons/velog-logo.svg"
-import notificationIcon from "../icons/notification-velog.png";
-import searchIcon from "../icons/search-velog.png"
+import logoIcon from "../assets/icons/velog-logo.svg"
+import notificationIcon from "../assets/icons/notification-velog.png";
+import searchIcon from "../assets/icons/search-velog.png"
 
 const Box=styled.div`
     display: flex;
     flex-direction: row;
     height: 40px;
     justify-content: space-between;
+    justify-items: center;
     align-items: center;
 `
 const Logo=styled.img`

@@ -1,27 +1,28 @@
 import styled from "styled-components";
-import likeIcon from "../icons/like-velog.png"
+import likeIcon from "../assets/icons/like-velog.png"
 
 const Box=styled.div`
     background-color: white;
-    display: grid;
-    height: 420px;
-    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    height: 482px;
+    width: 100%;
     border-radius: 5px;
-    grid-template-rows: 6fr 5fr 1fr;
-    margin-bottom: 15px;
-    margin-right: 70px;
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .04);
 `
 const Smallbox1=styled.div`
+  height: 251.56px;
   
 `
 const Smallbox2=styled.div`
   display: flex;
+  height: 189px;
   flex-direction: column;
   justify-content: space-between;
 `
 const Smallbox3=styled.div`
   border-top: 0.1px solid lightgray;
+  height: 45px;
   display: flex;
   padding: 10px;
   justify-content: space-between;
@@ -34,8 +35,7 @@ const Thumbnail=styled.img`
   height:210px;
   width: 100%;
   object-fit: cover;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+
 
 `
 const Title=styled.h5`
